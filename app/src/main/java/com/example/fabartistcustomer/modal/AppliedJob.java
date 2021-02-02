@@ -1,6 +1,8 @@
 package com.example.fabartistcustomer.modal;
 
-public class AppliedJob {
+import java.io.Serializable;
+
+public class AppliedJob implements Serializable {
     String ajId = "";
     String userId = "";
     String artistId = "";
